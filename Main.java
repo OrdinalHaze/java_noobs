@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[]args){
 
 
-        String filePath="/home/zypher/Downloads/GTA Type Beat - Dyalla.wav";
+        String filePath="/home/zypher/Downloads/GTA Type Beat - Dyalla.wav"; //Add absolute file path or file in same directory
         File file = new File(filePath);
 
         try( Scanner scanner = new Scanner(System.in);AudioInputStream audioStream = AudioSystem.getAudioInputStream(file))
